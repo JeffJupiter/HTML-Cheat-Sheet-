@@ -1,0 +1,157 @@
+<!DOCTYPE html> 
+<html>
+
+
+<head>
+    <title> HTML Cheat Sheet!</title>
+
+</head>
+<body>
+    <!-- Headings-->
+    <h1> First Self Created Header // biggest heading there is</h1>
+    <h2> Heading Two</h2>
+    <h3> Heading 3</h3>
+    <h4> Heading 4</h4>
+    <h5> Heading 5</h5>
+    <h6> Heading 6</h6>
+
+    <!-- Paragraphs -->
+    <p> <strong> stuff </strong> <!-- bold, in css U can mod it to do whatever italisize, font size whatever -->  </p>
+    <p> <em> This makes it italic by default but again can be changed in CSS </em>stuff </p>
+    <p> <a href="https://www.cartoonnetwork.com/"> stuff </a> </p>
+    <p> stuff </p>
+
+    <ul>
+        <li> 1 stuff  </li>
+        <li> 1 stuff <!-- Bullet point list--> </li>
+    </ul>
+
+    <ol>
+        <!-- Numbered List -->
+        <li>  stuff  </li>
+        <li>  things <!-- Number list--> </li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th> Name </th>
+                <th> Sex</th>
+                <th> Gender</th>
+                <th> Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jeff Jupiter </td>
+                <td> M </td>
+                <td> Male</td>
+                <td> 25</td>
+
+            </tr>
+            <tr>
+                <td>Jen Smith</td>
+                <td> F </td>
+                <td> Female</td>
+                <td> 261</td>
+
+            </tr>
+            <tr>
+                <td>Doctor Who </td>
+                <td> M </td>
+                <td> Unknown</td>
+                <td> 26000</td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+    <br />
+    <hr />
+    <!-- Only covers look of form -->
+    <form action="https://www.marvel.com/characters/iron-man-tony-stark">
+
+        <div>
+            <label> First Name </label>
+            <input type="text" name=" firstname"
+                   placeholder="John"
+            <br />
+        </div>
+        <br />
+        <div>
+            <label> Last Name </label>
+            <input type="text" name=" Last - name"
+                   placeholder="Smith"
+            <br />
+        </div>
+        <br />
+        <div>
+            <label> Email </label>
+            <input type="email" name=" email"
+                   placeholder="cookie@gmail.com"
+            <br />
+        </div>
+
+        <br />
+        <div>
+            <label> Questions? </label>
+            <input textarea name="message"
+                   placeholder=" How can we help?">
+            </inputtextarea>
+
+
+            <!-- Allows for alot of text input-->
+        </div>
+        <br />
+        <div>
+            <!-- Drop Down Menu -->
+            <label> Gender</label>
+            <select name=" Gender">
+
+                <option value="male"> Male</option>
+                <option value="male"> Female</option>
+                <option value="male"> Other</option>
+            </select>
+        </div>
+        <br />
+        <div>
+            <lable> Age</lable>
+            <input type="number"
+                   placeholder="18"> </input>
+            <!--Allows for incremental input // Up down  -->
+            </select>
+        </div>
+        <br />
+        <div>
+            <lable> DOB </lable>
+            <input type="date"
+                   placeholder=" 11/24/95"> </input>
+            <!--Allows for drop down Calandar -->
+            </select>
+        </div>
+        <br />
+        <!-- Submit button that can be directed // must be defined within form-->
+        <input type="submit" name="submit"
+               value="Submit"
+
+        <!-- Source  = scr // Image must be in same folder as index.html // home // would add a " / " if you put inside a file-->
+        <!-- Alt is in case page cannot find image -->
+        <br />
+        <a href=" https://www.marvel.com/characters/iron-man-tony-stark"> </a>
+        <img src=" ironman.png" alt=" Iron Man "
+             Image width=" 400px" />
+
+        <div style="margin-top: 500px"> </div>"
+    </form>
+    <form method="post"> </form> <!-- Post to database-->
+
+</body>
+echo "# HTML-Cheat-Sheet-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/JeffJupiter/HTML-Cheat-Sheet-.git
+git push -u origin master
+
+</html>
